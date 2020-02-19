@@ -6,7 +6,7 @@
     "title": "The Root Schema",
     "required": [
       "isbn",
-      "amazon-url",
+      "amazon_url",
       "author",
       "language",
       "pages",
@@ -25,10 +25,10 @@
         ],
         "pattern": "^(.*)$"
       },
-      "amazon-url": {
-        "$id": "#/properties/amazon-url",
+      "amazon_url": {
+        "$id": "#/properties/amazon_url",
         "type": "string",
-        "title": "The Amazon-url Schema",
+        "title": "The Amazon_url Schema",
         "default": "",
         "examples": [
           "http://a.co/eobPtX2"
